@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="rating">
+        <div class="rating-component component">
+            <div class="rating__star">
+            <img src="images/icon-star.svg" alt="">
+        </div>
+        <h1 class="rating__heading">How did we do?</h1>
+        <p class="rating__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <form class="rating__step">
+            <input type="radio" name="step" value="1" id="step1">
+            <label for="step1" class="step-label">1</label>
+            <input type="radio" name="step" value="2" id="step2">
+            <label for="step2" class="step-label">2</label>
+            <input type="radio" name="step" value="3" id="step3">
+            <label for="step3" class="step-label">3</label>
+            <input type="radio" name="step" value="4" id="step4">
+            <label for="step4" class="step-label">4</label>
+            <input type="radio" name="step" value="5" id="step5">
+            <label for="step5" class="step-label">5</label>
+        </form>
+        <button type="submit" class="rating__btn">Submit</button>
+        </div>
+        <div class="thanks-component component">
+            <div class="icon-img">
+                <img src="images/illustration-thank-you.svg" alt="">
+            </div>
+            <p class="rating-number">You selected <span id="number">1</span> out of 5</p>
+            <h2 class="thanks-title">Thank you!</h2>
+            <p class="thanks-text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
