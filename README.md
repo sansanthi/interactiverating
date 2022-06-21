@@ -44,6 +44,27 @@ screenshots/Screenshot-Interactive-thankyou.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/sansanthi/interactiverating
+
+- Live Site URL: https://interactiverating-fmentor.netlify.app
+
+
+### Built with
+
+-HTML 5 markup & CSS3
+-Flexbox
+-Mobile-first workflow
+-JavaScript
+
+### What I learned
+
+I have learned radio button styling with circle shape from this project. 
+
+
+### Useful resources
+
+-https://codepen.io/w3programmings/pen/zzRKpy - This helped me to write radio button circle shape 
+
+
+
 
